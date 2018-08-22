@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/chart-reso/percentage/style.css">
+
+    <script src="assets/chart-reso/highcharts/highcharts.js"></script>
+    <script src="assets/chart-reso/highcharts/series-label.js"></script>
+    <script src="assets/chart-reso/theme/dark.js"></script>
+
+</head>
+
+<body style="background:#27292d">
+    <div style="width:150px;height:150px;">
+        <svg viewbox="-1 -1 38 38" class="circular-chart theme1">
+            <path class="circle-bg2" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <path id="dsd" class="circle1" stroke-dasharray="10, 100" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <text x="18" y="20.35" class="percentage">2%</text>
+        </svg>
+    </div>
+    <div id="container"></div>
+    <input type="button" onclick="ss(0)" value="click" />
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
